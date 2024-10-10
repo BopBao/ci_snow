@@ -22,12 +22,12 @@ export default function About({ scrollTo }: Props) {
         <List sx={{ listStyleType: "disc", color: "#fff", paddingBottom: "35px", paddingTop: "35px" }}>
           <ListItem sx={{ display: "list-item" }}>
             <Typography variant="body2" sx={{ color: "#fff" }}>
-              Unlimited service calls - regardless how much it snows!
+              Unlimited service - daily visits during snowfalls!
             </Typography>
           </ListItem>
           <ListItem sx={{ display: "list-item" }}>
             <Typography variant="body2" sx={{ color: "#fff" }}>
-              Onsite at first trace of snowfall
+              Daily service after first trace of snowfall, no limit on days
             </Typography>
           </ListItem>
           <ListItem sx={{ display: "list-item" }}>
