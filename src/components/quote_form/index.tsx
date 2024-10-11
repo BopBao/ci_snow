@@ -16,6 +16,9 @@ export default function QuoteForm() {
         <Typography variant="h2" sx={{ color: "#fff" }}>
           Get a quote now
         </Typography>
+        <Typography variant="body1" sx={{ color: "#fff" }}>
+          {"By phone (780) 989-3987\nor by this form"}
+        </Typography>
         <Form />
         <Typography variant="body1" sx={{ color: "#fff" }}>
           Any questions? Give us a call  - we'd love to chat!

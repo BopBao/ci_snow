@@ -91,20 +91,13 @@ export default function Form() {
           onChange={e => { setFields({ ...fields, email: e.target.value }); setErrors({ ...errors, email: false }) }}
         />
       </Stack>
-      <Stack direction="row" spacing={2}>
-        <TextField
-          fullWidth
-          label="Street Address"
-          error={errors?.address}
-          helperText={errors?.address ? "Please enter your address" : ""}
-          onChange={e => { setFields({ ...fields, address: e.target.value }); setErrors({ ...errors, address: false }) }}
-        />
-        <TextField
-          fullWidth
-          label="Postal Code"
-          onChange={e => setFields({ ...fields, postal: e.target.value })}
-        />
-      </Stack>
+      <TextField
+        fullWidth
+        label="Street Address"
+        error={errors?.address}
+        helperText={errors?.address ? "Please enter your address" : ""}
+        onChange={e => { setFields({ ...fields, address: e.target.value }); setErrors({ ...errors, address: false }) }}
+      />
       <TextField
         defaultValue="Phone"
         select
@@ -124,25 +117,6 @@ export default function Form() {
         minRows={6}
         onChange={e => setFields({ ...fields, request_description: e.target.value })}
       />
-      <TextField
-        defaultValue=""
-        select
-        label="How Did You Hear About Us?"
-        onChange={e => setFields({ ...fields, how_hear: e.target.value })}
-      >
-        <MenuItem key="R" value="Referral">
-          Referral
-        </MenuItem>
-        <MenuItem key="W" value="Web">
-          Web
-        </MenuItem>
-        <MenuItem key="Y" value="Yard Sign">
-          Yard Sign
-        </MenuItem>
-        <MenuItem key="O" value="Other">
-          Other
-        </MenuItem>
-      </TextField>
       {
         submitting ?
           <div style={{ display: "flex", justifyContent: "center" }}>

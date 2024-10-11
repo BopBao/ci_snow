@@ -13,7 +13,7 @@ export default function Landing({ scrollTo }: Props) {
     <div style={hero_style}>
       <div style={inner_hero_style}>
         <Typography variant="h1" sx={{ color: "#fff" }}>
-          Out at first <br />
+          Out after first <br />
           trace of snow
         </Typography>
         <Typography variant="body2" sx={{ color: "#fff" }}>

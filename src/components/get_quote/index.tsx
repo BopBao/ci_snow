@@ -17,7 +17,7 @@ export default function GetQuote({ scrollTo }: Props) {
           Fast, Free Quote - Start Now!
         </Typography>
         <Typography variant="body2">
-          We strive for top-tier service. Except to hear from us quickly!
+          We strive for top-tier service. Expect to hear from us quickly!
         </Typography>
       </div>
       <div>
