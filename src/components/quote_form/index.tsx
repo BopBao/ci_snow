@@ -17,7 +17,7 @@ export default function QuoteForm() {
           Get a quote now
         </Typography>
         <Typography variant="body1" sx={{ color: "#fff" }}>
-          {"By phone (780) 989-3987\nor by this form"}
+          By phone (780) 989-3987 or by this form
         </Typography>
         <Form />
         <Typography variant="body1" sx={{ color: "#fff" }}>
